@@ -85,7 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DebugConnectionProvider.cs" />
+    <Compile Include="Mutation\MutationExtensionMethods.cs" />
     <Compile Include="NHSpecificTest\BugTestCase.cs" />
+    <Compile Include="NHSpecificTest\NH1234\Context.cs" />
     <Compile Include="NHSpecificTest\NH1234\DomainClass.cs" />
     <Compile Include="NHSpecificTest\NH1234\SampleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
